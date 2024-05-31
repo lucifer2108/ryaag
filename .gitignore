@@ -68,6 +68,7 @@ templates/*
 templates/frontOffice/*
 !templates/frontOffice/default
 !templates/frontOffice/modern
+!templates/frontOffice/flexy
 !templates/frontOffice/new_default
 templates/frontOffice/modern/node_modules
 templates/frontOffice/modern/dist
