@@ -21,7 +21,6 @@ class InitConfig
         $vendorDir = $event->getComposer()->getConfig()->get('vendor-dir');
 
         $packageConfigFiles = [
-            'webpack_encore.yaml',
         ];
 
         $ConfigReplacementDir = __DIR__.'/ConfigReplacement';

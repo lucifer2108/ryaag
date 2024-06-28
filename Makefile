@@ -49,7 +49,6 @@ install: ## install existing project
 	@make remove-encore-files
 
 remove-encore-files:
-	@rm webpack.config.js
 	@rm -rf assets
 
 activate-module:

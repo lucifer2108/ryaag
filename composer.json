@@ -65,7 +65,6 @@
         "symfony/flex": "^1.12",
         "spipu/html2pdf": "~5.2.5",
         "symfony/mailer": "6.4.*",
-        "symfony/webpack-encore-bundle": "^1.14",
         "composer/composer": "~2.3.0",
         "thelia/smarty-redirection-module": "~2.0.0",
         "thelia/choice-filter-module": "^2.1",
@@ -165,7 +164,8 @@
             "": [
                 "local/modules/"
             ],
-            "App\\": "src/"
+            "App\\": "src/",
+            "Thelia\\Themes\\Flexy\\": "templates/frontOffice/flexy"
         },
         "files": [
             "core/bootstrap.php"
